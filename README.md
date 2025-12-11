@@ -1,6 +1,7 @@
 # Analyzing Formula One Performance Data and Trends (1950–2024)
 BA775-Business Analysis Toolbox
 Boston University
+
 ## Project Overview
 
 This project conducts a comprehensive analysis of performance determinants in the Formula One World Championship from 1950 to 2024. Using a relational dataset hosted on Kaggle and accessed through BigQuery, the study examines how speed, qualifying performance, reliability, pit-stop strategy, and environmental conditions influence both race-level and season-level outcomes. Through systematic data cleaning, integration, and exploratory analysis, the project identifies key performance patterns and evaluates how different factors interact to shape competitive results.
@@ -22,44 +23,10 @@ An Entity-Relationship Diagram (ERD) was generated to map table connections and 
 ## Dashboard Visualizations
 
 ### 📊 Tableau Dashboard 1
-<div class="tableauPlaceholder" id="f1_dashboard" style="position: relative;">
-    <noscript>
-        <a href="#">
-            <img src="https://public.tableau.com/static/images/F1/F1Viz1/Dashboard1/1.png" alt="Dashboard 1" />
-        </a>
-    </noscript>
-
-    <object class="tableauViz" style="display:none;">
-        <param name="host_url" value="https://public.tableau.com/" />
-        <param name="embed_code_version" value="3" />
-        <param name="name" value="F1Viz1/Dashboard1" />
-        <param name="tabs" value="no" />
-        <param name="toolbar" value="yes" />
-        <param name="static_image" value="https://public.tableau.com/static/images/F1/F1Viz1/Dashboard1/1.png" />
-        <param name="animate_transition" value="yes" />
-        <param name="display_static_image" value="yes" />
-        <param name="display_spinner" value="yes" />
-        <param name="display_overlay" value="yes" />
-        <param name="display_count" value="yes" />
-        <param name="language" value="zh-CN" />
-    </object>
-</div>
-
-<script type="text/javascript">
-    var container = document.getElementById("f1_dashboard");
-    var vizObj = container.getElementsByTagName("object")[0];
-
-    vizObj.style.width = "1000px";
-    vizObj.style.height = "827px";
-
-    var script = document.createElement("script");
-    script.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-    vizObj.parentNode.insertBefore(script, vizObj);
-</script>
-
+<div class='tableauPlaceholder' id='viz1765423835926' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;F1&#47;F1Viz1&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='F1Viz1&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;F1&#47;F1Viz1&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1765423835926');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1577px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 ### 📊 Tableau Dashboard 2
-<div class='tableauPlaceholder' id='viz1765423480087' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;F1&#47;F1Viz1&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='F1Viz1&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;F1&#47;F1Viz1&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1765423480087');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1577px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);    
+<div class='tableauPlaceholder' id='viz1765424030539' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;F1&#47;F1Viz1&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='F1Viz1&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;F1&#47;F1Viz1&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-CN' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1765424030539');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1577px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>   
 
 ## Slide Deck
 https://www.canva.com/design/DAG6lDLpzRE/qvxLuUAfyWAKKXxbEGYjEA/edit
